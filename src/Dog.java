@@ -1,3 +1,6 @@
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+import org.w3c.dom.ls.LSOutput;
+
 public class Dog {
     int age;
     String color;
@@ -16,10 +19,10 @@ public class Dog {
         pitBull.barking("Pit bull");
         bullDog.barking("Bull dog");
     }
+
     public void barking(String dogName){
         System.out.println(dogName + " is barking");
     }
 }
 
-
-// System.out
+// System.out.println()
