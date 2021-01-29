@@ -11,6 +11,7 @@ public class Television {
         this.shape = shape;
         this.size = size;
         this.weight = weight;
+       // System.out.println("You are in the Television Factory");
     }
 
     public static void main(String[] args) {
@@ -43,10 +44,10 @@ public class Television {
         lgTv.changeChannels("MSNBC");
         lgTv.decreaseVolume(20);
         lgTv.turnOff("LG Tv");
-        
+
 
     }
-    public void turnOn(String tvName){
+    public static void turnOn(String tvName){
         System.out.println(tvName + " is turned On");
     }
     public void turnOff(String tvName){

@@ -14,7 +14,7 @@ public class Phone {
         this.model = model;
         this.color = color;
         this.price = price;
-        //System.out.println("I am in the phone factory");
+        System.out.println("I am in the phone factory");
     }
 
     public static void main(String[] args) {
