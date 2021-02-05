@@ -3,6 +3,7 @@ public class BitwiseOperators {
         int x = 10;
         int y = 2;
         int i = x^y; // i = 10 ^ 2
+        System.out.println(Integer.toBinaryString(10));
         /*
         * There are three bitwise operators
         * 1. And & --> if both statements is true than output should be true which is 1
@@ -16,7 +17,6 @@ public class BitwiseOperators {
         // 2 into binary is -->  0010
         // using ^ operator: 1000 --> now 1000 in binary is 8--> 8, 4, 2, 1
         System.out.println(i);
-
 
     }
 }
