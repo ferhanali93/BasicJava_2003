@@ -1,3 +1,5 @@
+package controlFlow;
+
 public class CheckAge {
     // Create an checkAge() method with an integer variable called age
     static void checkAge(int age){

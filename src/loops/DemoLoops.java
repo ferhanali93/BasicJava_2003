@@ -1,3 +1,5 @@
+package loops;
+
 public class DemoLoops {
     public static void main(String[] args) {
         System.out.println("This is multiplication table of 2");

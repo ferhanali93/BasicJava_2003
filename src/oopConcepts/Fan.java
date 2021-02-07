@@ -1,3 +1,5 @@
+package oopConcepts;
+
 public class Fan {
     int size;
     int weight;
@@ -9,19 +11,19 @@ public class Fan {
         this.weight = weight;
         this.color = color;
         this.type = type;
-        System.out.println("You are in the Fan Factory");
+        System.out.println("You are in the oopConcepts.Fan Factory");
     }
 
     public static void main(String[] args) {
-        Fan ceilingFan = new Fan(22, 200, "white", "ceiling Fan");
-        ceilingFan.turnOn("Ceiling Fan");
-        ceilingFan.turnOff("Ceiling Fan");
+        Fan ceilingFan = new Fan(22, 200, "white", "ceiling oopConcepts.Fan");
+        ceilingFan.turnOn("Ceiling oopConcepts.Fan");
+        ceilingFan.turnOff("Ceiling oopConcepts.Fan");
 
         System.out.println(" ");
 
-        Fan tableFan = new Fan(12, 100, "Black", "Table Fan");
-        tableFan.turnOn("Table Fan");
-        tableFan.turnOff("Table Fan");
+        Fan tableFan = new Fan(12, 100, "Black", "Table oopConcepts.Fan");
+        tableFan.turnOn("Table oopConcepts.Fan");
+        tableFan.turnOff("Table oopConcepts.Fan");
 
 
     }

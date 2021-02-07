@@ -1,3 +1,5 @@
+package controlFlow;
+
 public class Grades {
     public static void main(String[] args) {
         findGrades("Ferhan", 90);

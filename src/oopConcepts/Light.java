@@ -1,3 +1,5 @@
+package oopConcepts;
+
 public class Light {
     // Below the properties of the light
     int weight;

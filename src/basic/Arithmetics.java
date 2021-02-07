@@ -1,3 +1,5 @@
+package basic;
+
 public class Arithmetics {
     int length;
     String color;
@@ -21,7 +23,7 @@ public class Arithmetics {
         module(12,5);
 
         Arithmetics cal = new Arithmetics(7, "Black", "Digital", 200, 50);
-            cal.functionality("Digital Calculator");
+            cal.functionality("Digital scannerClasses.Calculator");
     }
     public void functionality(String nameOfCal){
         System.out.println(nameOfCal + " is working");
