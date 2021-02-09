@@ -25,6 +25,10 @@ public class FIndDuplicates {
         length = removeDuplicateElements(arr, length);
         for (int i=0; i<length; i++)
             System.out.print(arr[i]+" ");
+        String str = "Ferhan";
+        System.out.println(str.length());
+
+
     }
 
 }

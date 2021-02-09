@@ -1,3 +1,5 @@
+package basic;
+
 public class PrimeNumber {
     public static void main(String args[]){
         int[] myIntArray = {101, 102, 103, 104, 105};
